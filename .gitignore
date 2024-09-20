@@ -1,0 +1,55 @@
+# Go binary files
+/bin/
+/obj/
+
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Dependency directories
+vendor/
+node_modules/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+# Generated files
+*.sqlite3
+*.db
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Go module files
+go.sum
+
+# Go test binary, but keep it if you're running tests with it
+*.test
+
+# Coverage output
+coverage.out
+
+# Exclude specific files
+*.pem
+*.key
+*.csr
+*.crt
+
+# Custom Gin or project-specific files (if any)
+# For example:
+# /config/*.json
+# /config/*.yaml
